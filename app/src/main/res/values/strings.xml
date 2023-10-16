@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FirebaseDeneme</string>
+    <string name="title_activity_home_page">HomePageActivity</string>
+    <string name="title_activity_add_photo">AddPhotoActivity</string>
+    <string name="nullText">THERE IS NO POST!</string>
+</resources>

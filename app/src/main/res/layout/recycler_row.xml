@@ -1,0 +1,103 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/profilePhotoImageView"
+                android:layout_width="99dp"
+                android:layout_height="72dp"
+                />
+
+            <TextView
+                android:id="@+id/postEmailText"
+                android:layout_width="306dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingRight="200dp"
+                 />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/postOutlineText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            />
+
+
+        <ImageView
+            android:id="@+id/postImageView"
+            android:layout_width="249dp"
+            android:layout_height="207dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/likeCountDetail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#2E53BD"
+                android:textSize="12sp"
+                android:gravity="left"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/seeComments"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#2E53BD"
+                android:textSize="20sp"
+                android:text="SEE ALL COMMENTS.."
+                />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/likeBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LIKE"
+                />
+            <EditText
+                android:id="@+id/commentText"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="Yorum Yap..."
+                android:textSize="22sp"
+                />
+            <Button
+                android:id="@+id/sendBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Send"
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout></layout>

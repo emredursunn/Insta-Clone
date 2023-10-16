@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "414950526744",
+    "project_id": "fcebook2-76fdc",
+    "storage_bucket": "fcebook2-76fdc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414950526744:android:b55310251bc7ba2789186d",
+        "android_client_info": {
+          "package_name": "com.example.firebasedeneme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414950526744-95v11jlfurv4mu3dshbckt7rvomdu7q5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3N7X8bE2F_gRpo39VtB5pZpUR6Zd9aXs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414950526744-95v11jlfurv4mu3dshbckt7rvomdu7q5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
